@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.white {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  padding: 30px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  color: grey;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.donate {
+  padding: 20px;
+  background-color: rgba(228, 228, 228, 0.8);
+  border-radius: 10px;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 20%;
+  text-align: start;
+  vertical-align: top;
+  margin: 2px 0;
+}
+
+input,
+textarea {
+  margin: 2px 0;
+  display: inline-block;
+  outline: none;
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.about {
+  display: flex;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  opacity: 0.8;
+}
+
+div .about-para{
+  text-align: justify;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.4) url("Children.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+.content {
+  min-height: 93vh;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  background: #79261c;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+button:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(238, 235, 235, 0.8);
+  overflow: hidden;
+  padding-top: 5px;
+}
+
+footer p{
+  color: #ffb900;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #ffb900;
+}
+
+.container1 {
+  height: 150px;
+  position: relative;
+}
+
+.center1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
